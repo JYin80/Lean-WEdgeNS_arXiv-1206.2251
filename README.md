@@ -180,8 +180,8 @@ All differences between the revised paper and the published version are listed i
 ## Building
 
 ```bash
-git clone https://github.com/JYin80/Lean-WEdgeNS_arXiv1206.2251.git
-cd Lean-WEdgeNS_arXiv1206.2251
+git clone https://github.com/JYin80/Lean-WEdgeNS_arXiv-1206.2251.git
+cd Lean-WEdgeNS_arXiv-1206.2251
 lake exe cache get   # download the compiled Mathlib
 lake build
 ```
