@@ -1,4 +1,8 @@
-import WEdgeNS.Comparison.Telescope
+module
+
+public import WEdgeNS.Comparison.Telescope
+
+@[expose] public section
 
 /-!
 # Formal monomials in resolvent entries and their evaluation

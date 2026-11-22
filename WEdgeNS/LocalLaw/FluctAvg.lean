@@ -1,6 +1,10 @@
-import WEdgeNS.LocalLaw.Weak
-import WEdgeNS.LocalLaw.Decoupling
-import WEdgeNS.LocalLaw.Graded
+module
+
+public import WEdgeNS.LocalLaw.Weak
+public import WEdgeNS.LocalLaw.Decoupling
+public import WEdgeNS.LocalLaw.Graded
+
+@[expose] public section
 
 /-!
 # Fluctuation averaging

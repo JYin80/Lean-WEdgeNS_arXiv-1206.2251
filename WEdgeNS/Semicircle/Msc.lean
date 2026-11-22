@@ -1,4 +1,8 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
 
 /-!
 # The Stieltjes transform m_sc of the semicircle law ((2.7), (2.8), (2.10))

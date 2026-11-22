@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.PairMoments
-import WEdgeNS.Comparison.LocalSmallQ
+module
+
+public import WEdgeNS.Comparison.PairMoments
+public import WEdgeNS.Comparison.LocalSmallQ
+
+@[expose] public section
 
 /-!
 # One swap of the Green function comparison for small support

@@ -1,4 +1,8 @@
-import WEdgeNS.Comparison.Iterate
+module
+
+public import WEdgeNS.Comparison.Iterate
+
+@[expose] public section
 
 /-!
 # The iteration in the sum form

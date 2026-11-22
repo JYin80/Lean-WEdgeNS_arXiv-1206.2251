@@ -1,4 +1,8 @@
-import WEdgeNS.Model.Wigner
+module
+
+public import WEdgeNS.Model.Wigner
+
+@[expose] public section
 
 /-!
 # The largest eigenvalue of a real symmetric matrix

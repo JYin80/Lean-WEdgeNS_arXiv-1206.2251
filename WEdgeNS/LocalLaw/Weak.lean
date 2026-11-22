@@ -1,7 +1,11 @@
-import WEdgeNS.LocalLaw.SelfConsistent
-import WEdgeNS.LocalLaw.LargeEta
-import WEdgeNS.LocalLaw.Dichotomy
-import WEdgeNS.LocalLaw.Lattice
+module
+
+public import WEdgeNS.LocalLaw.SelfConsistent
+public import WEdgeNS.LocalLaw.LargeEta
+public import WEdgeNS.LocalLaw.Dichotomy
+public import WEdgeNS.LocalLaw.Lattice
+
+@[expose] public section
 
 /-!
 # The weak local semicircle law

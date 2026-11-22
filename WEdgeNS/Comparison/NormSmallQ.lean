@@ -1,6 +1,10 @@
-import WEdgeNS.Comparison.MomentCompare
-import WEdgeNS.LocalLaw.Norm
-import WEdgeNS.LocalLaw.OutOfSpectrum
+module
+
+public import WEdgeNS.Comparison.MomentCompare
+public import WEdgeNS.LocalLaw.Norm
+public import WEdgeNS.LocalLaw.OutOfSpectrum
+
+@[expose] public section
 
 /-!
 # The norm bound for small support

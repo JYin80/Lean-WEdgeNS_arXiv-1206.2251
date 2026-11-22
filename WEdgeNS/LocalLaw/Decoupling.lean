@@ -1,4 +1,8 @@
-import WEdgeNS.Probability.ProductSpace
+module
+
+public import WEdgeNS.Probability.ProductSpace
+
+@[expose] public section
 
 /-!
 # The abstract decoupling lemma

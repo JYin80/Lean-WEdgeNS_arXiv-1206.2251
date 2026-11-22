@@ -1,6 +1,10 @@
-import WEdgeNS.Probability.MomentsLinear
-import WEdgeNS.Probability.MomentsQuadratic
-import WEdgeNS.Probability.MomentsBilinear
+module
+
+public import WEdgeNS.Probability.MomentsLinear
+public import WEdgeNS.Probability.MomentsQuadratic
+public import WEdgeNS.Probability.MomentsBilinear
+
+@[expose] public section
 
 /-!
 # Large deviation bounds for linear and quadratic forms in independent bounded variables

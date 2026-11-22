@@ -1,4 +1,8 @@
-import WEdgeNS.Model.LambdaMax
+module
+
+public import WEdgeNS.Model.LambdaMax
+
+@[expose] public section
 
 /-!
 # The general entry-law model (Definitions 2.1, 2.4; Theorem 3.6 moments)

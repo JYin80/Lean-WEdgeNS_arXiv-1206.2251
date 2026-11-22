@@ -1,6 +1,10 @@
-import WEdgeNS.Moments.Matching
-import WEdgeNS.Model.Ensembles
-import WEdgeNS.Model.TestLaws
+module
+
+public import WEdgeNS.Moments.Matching
+public import WEdgeNS.Model.Ensembles
+public import WEdgeNS.Model.TestLaws
+
+@[expose] public section
 
 /-!
 # Classes of entry laws for the small-support comparison

@@ -1,5 +1,9 @@
-import WEdgeNS.LocalLaw.Class
-import WEdgeNS.Resolvent.Minors
+module
+
+public import WEdgeNS.LocalLaw.Class
+public import WEdgeNS.Resolvent.Minors
+
+@[expose] public section
 
 /-!
 # The entry law as a product measure, rows, partial expectations and graded terms

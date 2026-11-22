@@ -1,4 +1,8 @@
-import WEdgeNS.Resolvent.Basic
+module
+
+public import WEdgeNS.Resolvent.Basic
+
+@[expose] public section
 
 /-!
 # Finite resolvent expansions and the rank bound for traces ((3.28), (3.30), (6.47), (6.81))

@@ -1,4 +1,8 @@
-import WEdgeNS.Model.Wigner
+module
+
+public import WEdgeNS.Model.Wigner
+
+@[expose] public section
 
 /-!
 # Tail facts for the necessity part of Theorem 1.2

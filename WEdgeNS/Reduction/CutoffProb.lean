@@ -1,4 +1,8 @@
-import WEdgeNS.Reduction.Cutoff
+module
+
+public import WEdgeNS.Reduction.Cutoff
+
+@[expose] public section
 
 /-!
 # Probability of the entry cut-off

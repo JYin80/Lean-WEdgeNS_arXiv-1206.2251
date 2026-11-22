@@ -1,4 +1,8 @@
-import WEdgeNS.Comparison.Expansion
+module
+
+public import WEdgeNS.Comparison.Expansion
+
+@[expose] public section
 
 /-!
 # The inverse expectation expansion of one entry (Lemma 6.5)

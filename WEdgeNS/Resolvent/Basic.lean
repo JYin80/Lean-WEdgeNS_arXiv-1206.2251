@@ -1,4 +1,8 @@
-import WEdgeNS.Model.LambdaMax
+module
+
+public import WEdgeNS.Model.LambdaMax
+
+@[expose] public section
 
 /-!
 # Resolvent, Stieltjes transform of H, ordered eigenvalues, counting function

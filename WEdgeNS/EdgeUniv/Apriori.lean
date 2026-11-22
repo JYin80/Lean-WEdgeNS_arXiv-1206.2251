@@ -1,7 +1,11 @@
-import WEdgeNS.EdgeUniv.LargeQClass
-import WEdgeNS.LocalLaw.Interface
-import WEdgeNS.Comparison.Telescope
-import WEdgeNS.Model.HighProbCalc
+module
+
+public import WEdgeNS.EdgeUniv.LargeQClass
+public import WEdgeNS.LocalLaw.Interface
+public import WEdgeNS.Comparison.Telescope
+public import WEdgeNS.Model.HighProbCalc
+
+@[expose] public section
 
 /-!
 # The a priori bound on the resolvent along the interpolation to the GOE

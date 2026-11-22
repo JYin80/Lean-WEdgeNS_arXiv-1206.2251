@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.Classes
-import WEdgeNS.Comparison.Monomial
+module
+
+public import WEdgeNS.Comparison.Classes
+public import WEdgeNS.Comparison.Monomial
+
+@[expose] public section
 
 /-!
 # Moments of matched entries and coefficient bounds

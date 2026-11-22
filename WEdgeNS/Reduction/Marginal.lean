@@ -1,6 +1,10 @@
-import WEdgeNS.Reduction.Coupling
-import WEdgeNS.Probability.ProductSpace
-import WEdgeNS.Model.Transfer
+module
+
+public import WEdgeNS.Reduction.Coupling
+public import WEdgeNS.Probability.ProductSpace
+public import WEdgeNS.Model.Transfer
+
+@[expose] public section
 
 /-!
 # The law of the small block

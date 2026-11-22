@@ -1,5 +1,9 @@
-import WEdgeNS.Resolvent.Basic
-import WEdgeNS.Model.HighProb
+module
+
+public import WEdgeNS.Resolvent.Basic
+public import WEdgeNS.Model.HighProb
+
+@[expose] public section
 
 /-!
 # The Poisson kernel, smoothed counting functions and the edge cutoff

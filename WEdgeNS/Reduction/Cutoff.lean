@@ -1,5 +1,9 @@
-import WEdgeNS.Reduction.Decomp
-import WEdgeNS.Reduction.Barrier
+module
+
+public import WEdgeNS.Reduction.Decomp
+public import WEdgeNS.Reduction.Barrier
+
+@[expose] public section
 
 /-!
 # The sparse perturbation from the large entries

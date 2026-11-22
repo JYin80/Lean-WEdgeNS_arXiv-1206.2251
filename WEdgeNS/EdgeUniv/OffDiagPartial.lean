@@ -1,5 +1,9 @@
-import WEdgeNS.EdgeUniv.OffDiagExpansion
-import WEdgeNS.Comparison.Classes
+module
+
+public import WEdgeNS.EdgeUniv.OffDiagExpansion
+public import WEdgeNS.Comparison.Classes
+
+@[expose] public section
 
 /-!
 # Partial expectations in one off-diagonal entry

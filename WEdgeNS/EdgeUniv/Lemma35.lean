@@ -1,6 +1,10 @@
-import WEdgeNS.EdgeUniv.ClaimLargeQ
-import WEdgeNS.EdgeUniv.LargeQInputs
-import WEdgeNS.EdgeUniv.InputsComparison
+module
+
+public import WEdgeNS.EdgeUniv.ClaimLargeQ
+public import WEdgeNS.EdgeUniv.LargeQInputs
+public import WEdgeNS.EdgeUniv.InputsComparison
+
+@[expose] public section
 
 /-!
 # Edge universality for large support (Lemma 3.5)

@@ -1,6 +1,10 @@
-import WEdgeNS.Semicircle.Stieltjes
-import WEdgeNS.Semicircle.Bounds
-import WEdgeNS.Resolvent.Spectral
+module
+
+public import WEdgeNS.Semicircle.Stieltjes
+public import WEdgeNS.Semicircle.Bounds
+public import WEdgeNS.Resolvent.Spectral
+
+@[expose] public section
 
 /-!
 # Counting function from the Stieltjes transform ([26] §5, Helffer–Sjöstrand)

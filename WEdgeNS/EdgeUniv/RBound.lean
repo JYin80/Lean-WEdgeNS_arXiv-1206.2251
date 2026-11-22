@@ -1,7 +1,11 @@
-import WEdgeNS.EdgeUniv.Apriori
-import WEdgeNS.Comparison.Telescope
-import WEdgeNS.Resolvent.Expansion
-import WEdgeNS.Model.HighProbCalc
+module
+
+public import WEdgeNS.EdgeUniv.Apriori
+public import WEdgeNS.Comparison.Telescope
+public import WEdgeNS.Resolvent.Expansion
+public import WEdgeNS.Model.HighProbCalc
+
+@[expose] public section
 
 /-!
 # The resolvent with one entry removed

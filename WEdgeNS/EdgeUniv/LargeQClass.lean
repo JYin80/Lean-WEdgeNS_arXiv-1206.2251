@@ -1,5 +1,9 @@
-import WEdgeNS.Model.Transfer
-import WEdgeNS.Model.TestLaws
+module
+
+public import WEdgeNS.Model.Transfer
+public import WEdgeNS.Model.TestLaws
+
+@[expose] public section
 
 /-!
 # The class of entry laws of the large-support edge universality

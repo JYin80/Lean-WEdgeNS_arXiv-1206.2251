@@ -1,4 +1,8 @@
-import WEdgeNS.Model.LambdaMax
+module
+
+public import WEdgeNS.Model.LambdaMax
+
+@[expose] public section
 
 /-!
 # Finite-rank perturbation: the determinant criterion (4.32) and a one-sided barrier

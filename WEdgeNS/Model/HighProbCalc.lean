@@ -1,4 +1,8 @@
-import WEdgeNS.Model.HighProb
+module
+
+public import WEdgeNS.Model.HighProb
+
+@[expose] public section
 
 /-!
 # Calculus of ζ-high probability (Definition 2.3)

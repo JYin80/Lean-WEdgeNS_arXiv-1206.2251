@@ -1,5 +1,9 @@
-import WEdgeNS.EdgeUniv.EdgeProb
-import WEdgeNS.EdgeUniv.Window
+module
+
+public import WEdgeNS.EdgeUniv.EdgeProb
+public import WEdgeNS.EdgeUniv.Window
+
+@[expose] public section
 
 /-!
 # Edge universality from the edge event and a Green function comparison

@@ -1,4 +1,8 @@
-import WEdgeNS.Semicircle.Density
+module
+
+public import WEdgeNS.Semicircle.Density
+
+@[expose] public section
 
 /-!
 # m_sc is the Stieltjes transform of the semicircle law

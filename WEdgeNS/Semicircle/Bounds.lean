@@ -1,4 +1,8 @@
-import WEdgeNS.Semicircle.Msc
+module
+
+public import WEdgeNS.Semicircle.Msc
+
+@[expose] public section
 
 /-!
 # Lemma 2.6 with explicit constants

@@ -1,5 +1,9 @@
-import WEdgeNS.E1.Tail
-import WEdgeNS.Model.General
+module
+
+public import WEdgeNS.E1.Tail
+public import WEdgeNS.Model.General
+
+@[expose] public section
 
 /-!
 # Tails and centrings of the cut-off entries

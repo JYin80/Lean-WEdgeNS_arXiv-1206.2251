@@ -1,4 +1,8 @@
-import WEdgeNS.Model.General
+module
+
+public import WEdgeNS.Model.General
+
+@[expose] public section
 
 /-!
 # φ and ζ-high probability uniformly over classes of entry laws (Definition 2.3)

@@ -1,5 +1,9 @@
-import WEdgeNS.Model.HighProb
-import WEdgeNS.Model.Ensembles
+module
+
+public import WEdgeNS.Model.HighProb
+public import WEdgeNS.Model.Ensembles
+
+@[expose] public section
 
 /-!
 # Admissible support parameters and the spectral domain of Lemma 3.1

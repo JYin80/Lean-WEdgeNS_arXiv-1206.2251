@@ -1,8 +1,12 @@
-import WEdgeNS.Perturbation.FiniteRank
-import WEdgeNS.Resolvent.Basic
-import WEdgeNS.Model.LambdaMax
-import WEdgeNS.Model.HighProb
-import WEdgeNS.Model.General
+module
+
+public import WEdgeNS.Perturbation.FiniteRank
+public import WEdgeNS.Resolvent.Basic
+public import WEdgeNS.Model.LambdaMax
+public import WEdgeNS.Model.HighProb
+public import WEdgeNS.Model.General
+
+@[expose] public section
 
 /-!
 # A barrier for the largest eigenvalue under a sparse perturbation

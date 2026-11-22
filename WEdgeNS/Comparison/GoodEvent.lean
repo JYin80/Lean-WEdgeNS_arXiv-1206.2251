@@ -1,7 +1,11 @@
-import WEdgeNS.Comparison.Classes
-import WEdgeNS.Comparison.Monomial
-import WEdgeNS.LocalLaw.Interface
-import WEdgeNS.Resolvent.Expansion
+module
+
+public import WEdgeNS.Comparison.Classes
+public import WEdgeNS.Comparison.Monomial
+public import WEdgeNS.LocalLaw.Interface
+public import WEdgeNS.Resolvent.Expansion
+
+@[expose] public section
 
 /-!
 # The good event of the comparison and resolvent bounds on it

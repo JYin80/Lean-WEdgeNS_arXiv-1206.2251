@@ -1,4 +1,8 @@
-import WEdgeNS.EdgeUniv.CountApprox
+module
+
+public import WEdgeNS.EdgeUniv.CountApprox
+
+@[expose] public section
 
 /-!
 # The edge event and the smoothed-trace sandwich

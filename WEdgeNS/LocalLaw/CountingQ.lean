@@ -1,4 +1,8 @@
-import WEdgeNS.Semicircle.Counting
+module
+
+public import WEdgeNS.Semicircle.Counting
+
+@[expose] public section
 
 /-!
 # Counting function from the averaged local law with the `q`-terms

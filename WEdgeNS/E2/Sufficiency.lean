@@ -1,5 +1,9 @@
-import WEdgeNS.Reduction.Comparison
-import WEdgeNS.EdgeUniv.Thm37
+module
+
+public import WEdgeNS.Reduction.Comparison
+public import WEdgeNS.EdgeUniv.Thm37
+
+@[expose] public section
 
 /-!
 # Edge universality under the tail condition

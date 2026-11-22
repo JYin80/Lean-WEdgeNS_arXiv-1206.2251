@@ -1,7 +1,11 @@
-import WEdgeNS.LocalLaw.Outside
-import WEdgeNS.LocalLaw.NormApriori
-import WEdgeNS.LocalLaw.Interface
-import WEdgeNS.Semicircle.Rigidity
+module
+
+public import WEdgeNS.LocalLaw.Outside
+public import WEdgeNS.LocalLaw.NormApriori
+public import WEdgeNS.LocalLaw.Interface
+public import WEdgeNS.Semicircle.Rigidity
+
+@[expose] public section
 
 /-!
 # The norm bound (Lemma 3.1 (2))

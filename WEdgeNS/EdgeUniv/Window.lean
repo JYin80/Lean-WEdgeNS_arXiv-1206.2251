@@ -1,5 +1,9 @@
-import WEdgeNS.Model.HighProb
-import WEdgeNS.Model.Transfer
+module
+
+public import WEdgeNS.Model.HighProb
+public import WEdgeNS.Model.Transfer
+
+@[expose] public section
 
 /-!
 # Composition of comparisons and the range of `s`

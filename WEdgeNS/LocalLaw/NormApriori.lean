@@ -1,5 +1,9 @@
-import WEdgeNS.Probability.ProductSpace
-import WEdgeNS.Probability.LargeDeviation
+module
+
+public import WEdgeNS.Probability.ProductSpace
+public import WEdgeNS.Probability.LargeDeviation
+
+@[expose] public section
 
 /-!
 # An a priori bound on the norm

@@ -1,4 +1,8 @@
-import WEdgeNS.Probability.MomentsQuadratic
+module
+
+public import WEdgeNS.Probability.MomentsQuadratic
+
+@[expose] public section
 
 /-!
 # High moments of bilinear forms in independent bounded variables

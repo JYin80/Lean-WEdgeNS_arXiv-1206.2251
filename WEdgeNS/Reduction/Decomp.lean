@@ -1,5 +1,9 @@
-import WEdgeNS.Reduction.Coupling
-import WEdgeNS.Model.LambdaMax
+module
+
+public import WEdgeNS.Reduction.Coupling
+public import WEdgeNS.Model.LambdaMax
+
+@[expose] public section
 
 /-!
 # The decomposition of the Wigner matrix along the coupling

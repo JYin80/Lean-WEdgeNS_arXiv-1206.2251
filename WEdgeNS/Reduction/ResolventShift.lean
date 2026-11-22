@@ -1,7 +1,11 @@
-import WEdgeNS.Resolvent.Basic
-import WEdgeNS.Semicircle.Density
-import WEdgeNS.Model.HighProb
-import WEdgeNS.Model.LambdaMax
+module
+
+public import WEdgeNS.Resolvent.Basic
+public import WEdgeNS.Semicircle.Density
+public import WEdgeNS.Model.HighProb
+public import WEdgeNS.Model.LambdaMax
+
+@[expose] public section
 
 /-!
 # The resolvent near the edge point

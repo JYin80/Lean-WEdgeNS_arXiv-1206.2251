@@ -1,7 +1,11 @@
-import WEdgeNS.Reduction.TruncClass
-import WEdgeNS.Reduction.ResolventShift
-import WEdgeNS.Comparison.RigiditySmallQ
-import WEdgeNS.LocalLaw.Deloc
+module
+
+public import WEdgeNS.Reduction.TruncClass
+public import WEdgeNS.Reduction.ResolventShift
+public import WEdgeNS.Comparison.RigiditySmallQ
+public import WEdgeNS.LocalLaw.Deloc
+
+@[expose] public section
 
 /-!
 # The good event of the small matrix

@@ -1,4 +1,8 @@
-import WEdgeNS.LocalLaw.Class
+module
+
+public import WEdgeNS.LocalLaw.Class
+
+@[expose] public section
 
 /-!
 # A polynomial lattice in the spectral domain `S(C)`

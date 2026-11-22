@@ -1,4 +1,8 @@
-import WEdgeNS.LocalLaw.Control
+module
+
+public import WEdgeNS.LocalLaw.Control
+
+@[expose] public section
 
 /-!
 # The self-consistent equation on `Ω(z)`

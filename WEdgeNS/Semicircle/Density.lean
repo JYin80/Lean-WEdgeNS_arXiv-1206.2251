@@ -1,4 +1,8 @@
-import WEdgeNS.Semicircle.Msc
+module
+
+public import WEdgeNS.Semicircle.Msc
+
+@[expose] public section
 
 /-!
 # Semicircle density, distribution function and classical locations ((2.9), (2.13), (5.13))

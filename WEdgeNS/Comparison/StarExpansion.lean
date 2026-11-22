@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.Monomial
-import WEdgeNS.Resolvent.Expansion
+module
+
+public import WEdgeNS.Comparison.Monomial
+public import WEdgeNS.Resolvent.Expansion
+
+@[expose] public section
 
 /-!
 # Expansions of resolvent words in one matrix entry

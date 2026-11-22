@@ -1,109 +1,111 @@
-import WEdgeNS.Basic
-import WEdgeNS.Model.Wigner
-import WEdgeNS.Model.LambdaMax
-import WEdgeNS.E1.Tail
-import WEdgeNS.E1.Gamma
-import WEdgeNS.E1.Necessity
-import WEdgeNS.Semicircle.Msc
-import WEdgeNS.Model.General
-import WEdgeNS.Resolvent.Basic
-import WEdgeNS.Perturbation.FiniteRank
-import WEdgeNS.Model.HighProb
-import WEdgeNS.Semicircle.Density
-import WEdgeNS.Model.Transfer
-import WEdgeNS.Semicircle.Bounds
-import WEdgeNS.Semicircle.Stieltjes
-import WEdgeNS.Resolvent.Spectral
-import WEdgeNS.Model.Ensembles
-import WEdgeNS.Moments.Matching
-import WEdgeNS.Resolvent.Expansion
-import WEdgeNS.Semicircle.Counting
-import WEdgeNS.Semicircle.Rigidity
-import WEdgeNS.Probability.MomentsLinear
-import WEdgeNS.Model.HighProbCalc
-import WEdgeNS.LocalLaw.Class
-import WEdgeNS.LocalLaw.CountingQ
-import WEdgeNS.LocalLaw.Lattice
-import WEdgeNS.LocalLaw.RigidityDet
-import WEdgeNS.LocalLaw.Dichotomy
-import WEdgeNS.Resolvent.Minors
-import WEdgeNS.EdgeUniv.Smoothing
-import WEdgeNS.Probability.MomentsQuadratic
-import WEdgeNS.Probability.ProductSpace
-import WEdgeNS.Probability.MomentsBilinear
-import WEdgeNS.Probability.LargeDeviation
-import WEdgeNS.LocalLaw.Truncation
-import WEdgeNS.LocalLaw.Decoupling
-import WEdgeNS.LocalLaw.Graded
-import WEdgeNS.LocalLaw.Control
-import WEdgeNS.EdgeUniv.PoissonKernel
-import WEdgeNS.EdgeUniv.ImMscIntegral
-import WEdgeNS.LocalLaw.NormApriori
-import WEdgeNS.EdgeUniv.Window
-import WEdgeNS.EdgeUniv.TaylorF
-import WEdgeNS.LocalLaw.LargeEta
-import WEdgeNS.LocalLaw.SelfConsistent
-import WEdgeNS.EdgeUniv.CountApprox
-import WEdgeNS.LocalLaw.Weak
-import WEdgeNS.Comparison.Telescope
-import WEdgeNS.EdgeUniv.EdgeSandwich
-import WEdgeNS.EdgeUniv.EdgeProb
-import WEdgeNS.LocalLaw.FluctAvg
-import WEdgeNS.LocalLaw.Strong
-import WEdgeNS.LocalLaw.Interface
-import WEdgeNS.LocalLaw.Outside
-import WEdgeNS.LocalLaw.Norm
-import WEdgeNS.LocalLaw.Deloc
-import WEdgeNS.LocalLaw.Rigidity
-import WEdgeNS.LocalLaw.OutOfSpectrum
-import WEdgeNS.Comparison.Classes
-import WEdgeNS.Comparison.Monomial
-import WEdgeNS.Comparison.MomentBounds
-import WEdgeNS.EdgeUniv.InputsComparison
-import WEdgeNS.EdgeUniv.LargeQClass
-import WEdgeNS.EdgeUniv.LargeQInputs
-import WEdgeNS.Comparison.GoodEvent
-import WEdgeNS.Comparison.StarExpansion
-import WEdgeNS.EdgeUniv.Apriori
-import WEdgeNS.EdgeUniv.RBound
-import WEdgeNS.Comparison.Expansion
-import WEdgeNS.EdgeUniv.WardReduction
-import WEdgeNS.Comparison.Swap
-import WEdgeNS.Comparison.ExpansionInv
-import WEdgeNS.Reduction.ResolventShift
-import WEdgeNS.EdgeUniv.DiagSwap
-import WEdgeNS.Comparison.Iterate
-import WEdgeNS.EdgeUniv.ExpectationGain
-import WEdgeNS.Reduction.Tail
-import WEdgeNS.Reduction.Barrier
-import WEdgeNS.EdgeUniv.OffDiagExpansion
-import WEdgeNS.Comparison.MomentCompare
-import WEdgeNS.Reduction.Coupling
-import WEdgeNS.Reduction.Decomp
-import WEdgeNS.Comparison.PairMoments
-import WEdgeNS.Reduction.Cutoff
-import WEdgeNS.Reduction.TruncClass
-import WEdgeNS.Reduction.SelectorProb
-import WEdgeNS.Reduction.Marginal
-import WEdgeNS.Comparison.IterateSum
-import WEdgeNS.Comparison.NormSmallQ
-import WEdgeNS.Comparison.LocalSmallQ
-import WEdgeNS.Reduction.CutoffProb
-import WEdgeNS.Comparison.OffDiagWords
-import WEdgeNS.Comparison.RigiditySmallQ
-import WEdgeNS.EdgeUniv.OffDiagPartial
-import WEdgeNS.Comparison.IterateWeight
-import WEdgeNS.Reduction.InputsSmall
-import WEdgeNS.EdgeUniv.SmallQBridge
-import WEdgeNS.Comparison.OffDiagSmallQ
-import WEdgeNS.EdgeUniv.OffDiagSwap
-import WEdgeNS.Reduction.OffDiagSelector
-import WEdgeNS.EdgeUniv.ClaimLargeQ
-import WEdgeNS.Reduction.Claim426
-import WEdgeNS.EdgeUniv.Lemma35
-import WEdgeNS.Reduction.Comparison
-import WEdgeNS.Comparison.Taylor
-import WEdgeNS.Comparison.GreenCompare
-import WEdgeNS.EdgeUniv.Thm37
-import WEdgeNS.E2.Sufficiency
-import WEdgeNS.Model.TestLaws
+module
+
+public import WEdgeNS.Basic
+public import WEdgeNS.Model.Wigner
+public import WEdgeNS.Model.LambdaMax
+public import WEdgeNS.E1.Tail
+public import WEdgeNS.E1.Gamma
+public import WEdgeNS.E1.Necessity
+public import WEdgeNS.Semicircle.Msc
+public import WEdgeNS.Model.General
+public import WEdgeNS.Resolvent.Basic
+public import WEdgeNS.Perturbation.FiniteRank
+public import WEdgeNS.Model.HighProb
+public import WEdgeNS.Semicircle.Density
+public import WEdgeNS.Model.Transfer
+public import WEdgeNS.Semicircle.Bounds
+public import WEdgeNS.Semicircle.Stieltjes
+public import WEdgeNS.Resolvent.Spectral
+public import WEdgeNS.Model.Ensembles
+public import WEdgeNS.Moments.Matching
+public import WEdgeNS.Resolvent.Expansion
+public import WEdgeNS.Semicircle.Counting
+public import WEdgeNS.Semicircle.Rigidity
+public import WEdgeNS.Probability.MomentsLinear
+public import WEdgeNS.Model.HighProbCalc
+public import WEdgeNS.LocalLaw.Class
+public import WEdgeNS.LocalLaw.CountingQ
+public import WEdgeNS.LocalLaw.Lattice
+public import WEdgeNS.LocalLaw.RigidityDet
+public import WEdgeNS.LocalLaw.Dichotomy
+public import WEdgeNS.Resolvent.Minors
+public import WEdgeNS.EdgeUniv.Smoothing
+public import WEdgeNS.Probability.MomentsQuadratic
+public import WEdgeNS.Probability.ProductSpace
+public import WEdgeNS.Probability.MomentsBilinear
+public import WEdgeNS.Probability.LargeDeviation
+public import WEdgeNS.LocalLaw.Truncation
+public import WEdgeNS.LocalLaw.Decoupling
+public import WEdgeNS.LocalLaw.Graded
+public import WEdgeNS.LocalLaw.Control
+public import WEdgeNS.EdgeUniv.PoissonKernel
+public import WEdgeNS.EdgeUniv.ImMscIntegral
+public import WEdgeNS.LocalLaw.NormApriori
+public import WEdgeNS.EdgeUniv.Window
+public import WEdgeNS.EdgeUniv.TaylorF
+public import WEdgeNS.LocalLaw.LargeEta
+public import WEdgeNS.LocalLaw.SelfConsistent
+public import WEdgeNS.EdgeUniv.CountApprox
+public import WEdgeNS.LocalLaw.Weak
+public import WEdgeNS.Comparison.Telescope
+public import WEdgeNS.EdgeUniv.EdgeSandwich
+public import WEdgeNS.EdgeUniv.EdgeProb
+public import WEdgeNS.LocalLaw.FluctAvg
+public import WEdgeNS.LocalLaw.Strong
+public import WEdgeNS.LocalLaw.Interface
+public import WEdgeNS.LocalLaw.Outside
+public import WEdgeNS.LocalLaw.Norm
+public import WEdgeNS.LocalLaw.Deloc
+public import WEdgeNS.LocalLaw.Rigidity
+public import WEdgeNS.LocalLaw.OutOfSpectrum
+public import WEdgeNS.Comparison.Classes
+public import WEdgeNS.Comparison.Monomial
+public import WEdgeNS.Comparison.MomentBounds
+public import WEdgeNS.EdgeUniv.InputsComparison
+public import WEdgeNS.EdgeUniv.LargeQClass
+public import WEdgeNS.EdgeUniv.LargeQInputs
+public import WEdgeNS.Comparison.GoodEvent
+public import WEdgeNS.Comparison.StarExpansion
+public import WEdgeNS.EdgeUniv.Apriori
+public import WEdgeNS.EdgeUniv.RBound
+public import WEdgeNS.Comparison.Expansion
+public import WEdgeNS.EdgeUniv.WardReduction
+public import WEdgeNS.Comparison.Swap
+public import WEdgeNS.Comparison.ExpansionInv
+public import WEdgeNS.Reduction.ResolventShift
+public import WEdgeNS.EdgeUniv.DiagSwap
+public import WEdgeNS.Comparison.Iterate
+public import WEdgeNS.EdgeUniv.ExpectationGain
+public import WEdgeNS.Reduction.Tail
+public import WEdgeNS.Reduction.Barrier
+public import WEdgeNS.EdgeUniv.OffDiagExpansion
+public import WEdgeNS.Comparison.MomentCompare
+public import WEdgeNS.Reduction.Coupling
+public import WEdgeNS.Reduction.Decomp
+public import WEdgeNS.Comparison.PairMoments
+public import WEdgeNS.Reduction.Cutoff
+public import WEdgeNS.Reduction.TruncClass
+public import WEdgeNS.Reduction.SelectorProb
+public import WEdgeNS.Reduction.Marginal
+public import WEdgeNS.Comparison.IterateSum
+public import WEdgeNS.Comparison.NormSmallQ
+public import WEdgeNS.Comparison.LocalSmallQ
+public import WEdgeNS.Reduction.CutoffProb
+public import WEdgeNS.Comparison.OffDiagWords
+public import WEdgeNS.Comparison.RigiditySmallQ
+public import WEdgeNS.EdgeUniv.OffDiagPartial
+public import WEdgeNS.Comparison.IterateWeight
+public import WEdgeNS.Reduction.InputsSmall
+public import WEdgeNS.EdgeUniv.SmallQBridge
+public import WEdgeNS.Comparison.OffDiagSmallQ
+public import WEdgeNS.EdgeUniv.OffDiagSwap
+public import WEdgeNS.Reduction.OffDiagSelector
+public import WEdgeNS.EdgeUniv.ClaimLargeQ
+public import WEdgeNS.Reduction.Claim426
+public import WEdgeNS.EdgeUniv.Lemma35
+public import WEdgeNS.Reduction.Comparison
+public import WEdgeNS.Comparison.Taylor
+public import WEdgeNS.Comparison.GreenCompare
+public import WEdgeNS.EdgeUniv.Thm37
+public import WEdgeNS.E2.Sufficiency
+public import WEdgeNS.Model.TestLaws

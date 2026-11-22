@@ -1,5 +1,9 @@
-import WEdgeNS.EdgeUniv.ImMscIntegral
-import WEdgeNS.LocalLaw.Class
+module
+
+public import WEdgeNS.EdgeUniv.ImMscIntegral
+public import WEdgeNS.LocalLaw.Class
+
+@[expose] public section
 
 /-!
 # Counting functions against smoothed traces (Lemma 6.1 of [26])

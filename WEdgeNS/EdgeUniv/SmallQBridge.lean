@@ -1,6 +1,10 @@
-import WEdgeNS.Comparison.RigiditySmallQ
-import WEdgeNS.EdgeUniv.LargeQInputs
-import WEdgeNS.EdgeUniv.InputsComparison
+module
+
+public import WEdgeNS.Comparison.RigiditySmallQ
+public import WEdgeNS.EdgeUniv.LargeQInputs
+public import WEdgeNS.EdgeUniv.InputsComparison
+
+@[expose] public section
 
 /-!
 # The edge event for the pairs of Theorem 3.7

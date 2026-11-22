@@ -1,4 +1,8 @@
-import WEdgeNS.Comparison.Taylor
+module
+
+public import WEdgeNS.Comparison.Taylor
+
+@[expose] public section
 
 /-!
 # Green function comparison for small support (Lemma 5.5)

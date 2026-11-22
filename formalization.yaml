@@ -1,0 +1,122 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+# formalization.yaml v0.4, for Palomar (https://palomar-registry.org/).
+version: "v0.4"
+
+project:
+  name: "A necessary and sufficient condition for edge universality of Wigner matrices"
+  description: >-
+    A Lean 4 / Mathlib proof of Theorem 1.2 of Lee and Yin, "A necessary and sufficient condition
+    for edge universality of Wigner matrices" (Duke Math. J. 163 (2014), arXiv:1206.2251), for
+    real symmetric Wigner matrices and the largest eigenvalue lambda_N. Let x_12 be an
+    off-diagonal entry. Sufficiency: if s^4 P(|x_12| >= s) -> 0 as s -> infinity (condition
+    (1.4)), then the distribution of N^{2/3}(lambda_N - 2) agrees with that of the GOE up to a
+    shift N^{-delta} and an additive error epsilon_N -> 0 uniform in s (the comparison (4.9)).
+    Necessity: if (1.4) fails, then limsup_N P(lambda_N >= 3) > 0, and N^{2/3}(lambda_N - 2) is
+    not tight and converges in distribution to no probability law. No result of another work is
+    assumed: the local semicircle law, rigidity, the Green function comparison and the edge
+    universality results that the paper cites are proved in the library from Mathlib.
+  authors:
+    - "Jun Yin"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Jun Yin"
+
+classification:
+  arxiv: ["math.PR"]
+  msc2020: ["60B20", "15B52"]
+
+sources:
+  - title: "A necessary and sufficient condition for edge universality of Wigner matrices"
+    authors:
+      - "Ji Oon Lee"
+      - "Jun Yin"
+    id: "arXiv:1206.2251"
+    type: "paper"
+    location: "Duke Math. J. 163 (2014); https://arxiv.org/abs/1206.2251"
+    relationship: "formalizes"
+    note: >-
+      The formalized source is arXiv:1206.2251v2. The statements and proofs that the Lean code
+      follows are those of the revised paper in paper-revised/ of this repository, which is v2
+      with the changes needed to match the Lean proof; its Appendix A lists every change. Jun Yin
+      is an author of the paper and of the formalization.
+    license: "unknown"
+    author_endorsement: "TEMPLATE: participated, endorsed, no-response, not-contacted, declined, n/a, or other (state whether Ji Oon Lee was contacted)"
+
+related_formalizations: []
+
+status:
+  scope: >-
+    Formalized: both directions of Theorem 1.2 for real symmetric Wigner matrices at k = 1 (the
+    largest eigenvalue). Sufficiency is proved in the GOE-comparison form (4.9), with a shift
+    N^{-delta} and an additive error epsilon_N -> 0 uniform in s; necessity as (1.6), together
+    with non-tightness and the absence of a limit in distribution. Not formalized: the complex
+    Hermitian case; the joint law of the k largest eigenvalues for k >= 2; the Tracy–Widom law
+    and the deduction of convergence to it from (4.9).
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: "agent"
+      models: ["claude-opus-5-5", "claude-sonnet-5-5", "claude-fable-5-2"]
+      framework: "Claude Code"
+      tool_setup: >-
+        AI-assisted: a team of Claude Code agents (a dispatcher, workers on ticket worktrees and
+        reviewing agents, on claude-opus-5-5 and claude-sonnet-5-5) wrote the Lean code and the
+        revised paper from the paper's source, under the direction of Jun Yin, who fixed the
+        endpoint statements. The port to the Lean module system and the Challenge/Solution files
+        for Palomar were written with claude-fable-5-2.
+      cost:
+        wall_time: "TEMPLATE: approximate active effort (the work repository has 148 commits, 2026-10-19 to 2026-10-22, in 36 distinct clock hours)"
+        spend_usd: "not tracked"
+        hardware: "local machine"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: >-
+    The mathematical source is a paper by Ji Oon Lee and Jun Yin. The Lean proofs were produced
+    by AI agents; the statements of the main theorems and of the definitions they use were fixed
+    and checked by Jun Yin against the paper.
+
+fidelity:
+  divergences: >-
+    (1) Only the real symmetric case and k = 1 are formalized. (2) Sufficiency is the GOE
+    comparison (4.9), not convergence to the Tracy–Widom law, which is not defined in the
+    library. (3) The additive error N^{-delta} of (4.9) is replaced by a sequence
+    epsilon_N -> 0 uniform in s; under (1.4) alone an error N^{-delta} is false for every
+    delta > 0 (Remark 4.1 of the revised paper). (4) The negation of (1.4) is read as
+    "s^4 P(|x_12| >= s) does not tend to 0". (5) Several intermediate statements are corrected
+    and some proof routes differ from the published ones (Section 4 without the GOE eigenvalue
+    gap; the determinant criterion replaced by the matrix determinant lemma); none changes
+    Theorem 1.2. Details: README.md and Appendix A of paper-revised/main.pdf.
+
+review:
+  status: "TEMPLATE: honest review status, for example agent-reviewed"
+  reviewers: []
+  notes: "TEMPLATE: describe the statement audit and review performed (for LHYUpper: tickets audited by a separate auditing agent; main statements checked by Jun Yin against the paper)"
+
+alignment:
+  namespace: "WEdgeNS"
+  statements:
+    - source: "Theorem 1.2, sufficiency, in the form (4.9)"
+      lean: "WEdgeNS.sufficiency"
+      module: "Challenge"
+      status: "adapted"
+      note: "Proved in Solution.lean by WEdgeNS.E2. GOE comparison with error epsilon_N -> 0; see fidelity."
+    - source: "Theorem 1.2, necessity, (1.6)"
+      lean: "WEdgeNS.necessity"
+      module: "Challenge"
+      status: "proved"
+      note: "Proved by WEdgeNS.E1."
+    - source: "Theorem 1.2, necessity (addition of the revised paper: no tightness)"
+      lean: "WEdgeNS.necessity_not_tight"
+      module: "Challenge"
+      status: "proved"
+      note: "Proved by WEdgeNS.E1_not_tight."
+    - source: "Theorem 1.2, necessity (addition of the revised paper: no limit in distribution)"
+      lean: "WEdgeNS.necessity_no_limit"
+      module: "Challenge"
+      status: "proved"
+      note: "Proved by WEdgeNS.E1_no_limit."
+
+acknowledgements: "Mathlib and the Lean community; Lean 4 (Lean FRO); Claude Code (Anthropic)."

@@ -1,5 +1,9 @@
-import WEdgeNS.EdgeUniv.RBound
-import WEdgeNS.EdgeUniv.WardReduction
+module
+
+public import WEdgeNS.EdgeUniv.RBound
+public import WEdgeNS.EdgeUniv.WardReduction
+
+@[expose] public section
 
 /-!
 # Expansion of the off-diagonal Ward sums in one entry

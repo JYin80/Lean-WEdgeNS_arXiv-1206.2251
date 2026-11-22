@@ -1,5 +1,9 @@
-import WEdgeNS.LocalLaw.Outside
-import WEdgeNS.LocalLaw.Truncation
+module
+
+public import WEdgeNS.LocalLaw.Outside
+public import WEdgeNS.LocalLaw.Truncation
+
+@[expose] public section
 
 /-!
 # Resolvent bounds outside the spectrum (Lemma 3.1 (5))

@@ -1,4 +1,8 @@
-import WEdgeNS.EdgeUniv.OffDiagSwap
+module
+
+public import WEdgeNS.EdgeUniv.OffDiagSwap
+
+@[expose] public section
 
 /-!
 # The Claim of the proof of Lemma 3.5

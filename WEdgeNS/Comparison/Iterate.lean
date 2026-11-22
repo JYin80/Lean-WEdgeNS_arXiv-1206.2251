@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.ExpansionInv
-import WEdgeNS.Comparison.Swap
+module
+
+public import WEdgeNS.Comparison.ExpansionInv
+public import WEdgeNS.Comparison.Swap
+
+@[expose] public section
 
 /-!
 # Iteration of the swaps

@@ -1,5 +1,9 @@
-import WEdgeNS.EdgeUniv.Apriori
-import WEdgeNS.EdgeUniv.TaylorF
+module
+
+public import WEdgeNS.EdgeUniv.Apriori
+public import WEdgeNS.EdgeUniv.TaylorF
+
+@[expose] public section
 
 /-!
 # Reduction to the off-diagonal Ward sums

@@ -1,4 +1,8 @@
-import WEdgeNS.Resolvent.Basic
+module
+
+public import WEdgeNS.Resolvent.Basic
+
+@[expose] public section
 
 /-!
 # Minors of a symmetric matrix and their resolvents

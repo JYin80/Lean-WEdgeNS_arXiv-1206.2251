@@ -1,4 +1,8 @@
-import WEdgeNS.Model.Transfer
+module
+
+public import WEdgeNS.Model.Transfer
+
+@[expose] public section
 
 /-!
 # The ensembles of Sections 3–4: truncation, interpolation order, Rademacher laws

@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.IterateSum
-import WEdgeNS.Comparison.OffDiagWords
+module
+
+public import WEdgeNS.Comparison.IterateSum
+public import WEdgeNS.Comparison.OffDiagWords
+
+@[expose] public section
 
 /-!
 # Total weight of the admissible data

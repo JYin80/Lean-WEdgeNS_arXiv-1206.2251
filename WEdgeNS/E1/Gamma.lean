@@ -1,4 +1,8 @@
-import WEdgeNS.Model.LambdaMax
+module
+
+public import WEdgeNS.Model.LambdaMax
+
+@[expose] public section
 
 /-!
 # The events of the necessity proof

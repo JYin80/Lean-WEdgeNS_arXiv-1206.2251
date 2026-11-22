@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.MomentCompare
-import WEdgeNS.Model.HighProbCalc
+module
+
+public import WEdgeNS.Comparison.MomentCompare
+public import WEdgeNS.Model.HighProbCalc
+
+@[expose] public section
 
 /-!
 # The averaged local law for small support

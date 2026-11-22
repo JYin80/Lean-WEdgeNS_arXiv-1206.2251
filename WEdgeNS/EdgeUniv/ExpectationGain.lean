@@ -1,6 +1,10 @@
-import WEdgeNS.EdgeUniv.RBound
-import WEdgeNS.EdgeUniv.WardReduction
-import WEdgeNS.Resolvent.Minors
+module
+
+public import WEdgeNS.EdgeUniv.RBound
+public import WEdgeNS.EdgeUniv.WardReduction
+public import WEdgeNS.Resolvent.Minors
+
+@[expose] public section
 
 /-!
 # The expectation gain of one off-diagonal entry

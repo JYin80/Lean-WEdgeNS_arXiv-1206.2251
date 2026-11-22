@@ -1,6 +1,10 @@
-import WEdgeNS.Probability.ProductSpace
-import WEdgeNS.Probability.LargeDeviation
-import WEdgeNS.Semicircle.Bounds
+module
+
+public import WEdgeNS.Probability.ProductSpace
+public import WEdgeNS.Probability.LargeDeviation
+public import WEdgeNS.Semicircle.Bounds
+
+@[expose] public section
 
 /-!
 # Control parameters and the first estimates on `Ω(z)`

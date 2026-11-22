@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.ExpansionInv
-import WEdgeNS.Comparison.Iterate
+module
+
+public import WEdgeNS.Comparison.ExpansionInv
+public import WEdgeNS.Comparison.Iterate
+
+@[expose] public section
 
 /-!
 # Moments of expanded resolvent pairs

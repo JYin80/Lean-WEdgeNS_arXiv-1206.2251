@@ -1,6 +1,10 @@
-import WEdgeNS.Comparison.StarExpansion
-import WEdgeNS.Comparison.GoodEvent
-import WEdgeNS.Comparison.MomentBounds
+module
+
+public import WEdgeNS.Comparison.StarExpansion
+public import WEdgeNS.Comparison.GoodEvent
+public import WEdgeNS.Comparison.MomentBounds
+
+@[expose] public section
 
 /-!
 # The expectation expansion of one entry (Lemma 6.5)

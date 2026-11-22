@@ -1,6 +1,10 @@
-import WEdgeNS.Reduction.Tail
-import WEdgeNS.Comparison.Classes
-import WEdgeNS.LocalLaw.Class
+module
+
+public import WEdgeNS.Reduction.Tail
+public import WEdgeNS.Comparison.Classes
+public import WEdgeNS.LocalLaw.Class
+
+@[expose] public section
 
 /-!
 # The class of the truncated and normalised matrix

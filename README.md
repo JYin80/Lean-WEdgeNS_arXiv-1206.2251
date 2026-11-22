@@ -186,6 +186,8 @@ lake exe cache get   # download the compiled Mathlib
 lake build
 ```
 
+All source files use Lean's module system. `lake build` also builds `Challenge.lean`, which states Theorem 1.2 with `sorry` (four warnings, by design), and `Solution.lean`, which proves the same statements from the library.
+
 `lake build` also prints the `#print axioms` lines contained in the endpoint files. To check an endpoint theorem directly:
 
 ```bash
@@ -222,3 +224,7 @@ Please cite the paper:
 ```
 
 License: Apache License 2.0; see [`LICENSE`](LICENSE).
+
+## Palomar
+
+The repository is laid out for the [Palomar registry](https://palomar-registry.org/) of Lean-verified mathematics: [`Challenge.lean`](Challenge.lean) is the statement to audit (it imports Mathlib only and repeats verbatim the definitions of `WEdgeNS/Model/Wigner.lean` that the statements use), [`Solution.lean`](Solution.lean) proves it, [`comparator.json`](comparator.json) names the compared theorems and [`formalization.yaml`](formalization.yaml) holds the metadata. `python3 scripts/check-lean-sources.py` and `./scripts/verify-comparator.sh` (Linux, needs `bwrap`) run the checks locally; submissions go to <https://submit.palomar-registry.org/>.

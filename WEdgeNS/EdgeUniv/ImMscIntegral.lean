@@ -1,6 +1,10 @@
-import WEdgeNS.EdgeUniv.PoissonKernel
-import WEdgeNS.Semicircle.Bounds
-import WEdgeNS.Semicircle.Stieltjes
+module
+
+public import WEdgeNS.EdgeUniv.PoissonKernel
+public import WEdgeNS.Semicircle.Bounds
+public import WEdgeNS.Semicircle.Stieltjes
+
+@[expose] public section
 
 /-!
 # Integrals of `Im m_sc` and of `Im m` against the Poisson kernel

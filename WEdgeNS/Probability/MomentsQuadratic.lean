@@ -1,4 +1,8 @@
-import WEdgeNS.Probability.MomentsLinear
+module
+
+public import WEdgeNS.Probability.MomentsLinear
+
+@[expose] public section
 
 /-!
 # High moments of off-diagonal quadratic forms in independent bounded variables

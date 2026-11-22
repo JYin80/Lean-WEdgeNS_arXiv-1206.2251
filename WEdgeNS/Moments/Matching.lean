@@ -1,4 +1,8 @@
-import WEdgeNS.Model.General
+module
+
+public import WEdgeNS.Model.General
+
+@[expose] public section
 
 /-!
 # Lemma 5.2, Remark 5.3 and Lemma 5.1 (moment matching)

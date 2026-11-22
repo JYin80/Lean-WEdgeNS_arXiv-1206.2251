@@ -1,4 +1,8 @@
-import WEdgeNS.Probability.ProductSpace
+module
+
+public import WEdgeNS.Probability.ProductSpace
+
+@[expose] public section
 
 /-!
 # Lindeberg telescoping over the entries

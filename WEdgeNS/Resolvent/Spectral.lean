@@ -1,4 +1,8 @@
-import WEdgeNS.Resolvent.Basic
+module
+
+public import WEdgeNS.Resolvent.Basic
+
+@[expose] public section
 
 /-!
 # Spectral consequences of the resolvent: Stieltjes form, free intervals, monotonicity, counting

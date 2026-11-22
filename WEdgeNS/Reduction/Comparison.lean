@@ -1,5 +1,9 @@
-import WEdgeNS.Reduction.Claim426
-import WEdgeNS.Reduction.CutoffProb
+module
+
+public import WEdgeNS.Reduction.Claim426
+public import WEdgeNS.Reduction.CutoffProb
+
+@[expose] public section
 
 /-!
 # The edge of the Wigner matrix against the small matrix

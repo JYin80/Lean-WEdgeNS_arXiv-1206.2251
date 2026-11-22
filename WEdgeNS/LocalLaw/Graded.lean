@@ -1,5 +1,9 @@
-import WEdgeNS.Probability.ProductSpace
-import WEdgeNS.Semicircle.Bounds
+module
+
+public import WEdgeNS.Probability.ProductSpace
+public import WEdgeNS.Semicircle.Bounds
+
+@[expose] public section
 
 /-!
 # Resolvent entries of minors and their graded terms

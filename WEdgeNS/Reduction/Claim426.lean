@@ -1,6 +1,10 @@
-import WEdgeNS.Reduction.InputsSmall
-import WEdgeNS.Reduction.OffDiagSelector
-import WEdgeNS.Reduction.SelectorProb
+module
+
+public import WEdgeNS.Reduction.InputsSmall
+public import WEdgeNS.Reduction.OffDiagSelector
+public import WEdgeNS.Reduction.SelectorProb
+
+@[expose] public section
 
 /-!
 # The largest eigenvalue under the sparse perturbation

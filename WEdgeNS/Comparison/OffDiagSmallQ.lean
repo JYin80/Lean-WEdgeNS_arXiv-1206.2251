@@ -1,5 +1,9 @@
-import WEdgeNS.Comparison.IterateWeight
-import WEdgeNS.Semicircle.Stieltjes
+module
+
+public import WEdgeNS.Comparison.IterateWeight
+public import WEdgeNS.Semicircle.Stieltjes
+
+@[expose] public section
 
 /-!
 # Off-diagonal resolvent moments for small support (Lemma 3.8)

@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "WEdgeNS.necessity",
+    "WEdgeNS.necessity_not_tight",
+    "WEdgeNS.necessity_no_limit",
+    "WEdgeNS.sufficiency"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

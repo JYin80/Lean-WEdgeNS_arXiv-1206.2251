@@ -1,5 +1,9 @@
-import WEdgeNS.Model.General
-import WEdgeNS.Resolvent.Basic
+module
+
+public import WEdgeNS.Model.General
+public import WEdgeNS.Resolvent.Basic
+
+@[expose] public section
 
 /-!
 # Transfer from the Wigner model and the GOE to the general model

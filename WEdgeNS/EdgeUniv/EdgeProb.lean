@@ -1,5 +1,9 @@
-import WEdgeNS.EdgeUniv.EdgeSandwich
-import WEdgeNS.Probability.ProductSpace
+module
+
+public import WEdgeNS.EdgeUniv.EdgeSandwich
+public import WEdgeNS.Probability.ProductSpace
+
+@[expose] public section
 
 /-!
 # The distribution of the largest eigenvalue against smoothed traces

@@ -1,4 +1,8 @@
-import WEdgeNS.LocalLaw.FluctAvg
+module
+
+public import WEdgeNS.LocalLaw.FluctAvg
+
+@[expose] public section
 
 /-!
 # The strong local semicircle law for almost surely bounded entries

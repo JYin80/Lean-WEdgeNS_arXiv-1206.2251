@@ -1,8 +1,12 @@
-import WEdgeNS.Reduction.TruncClass
-import WEdgeNS.Reduction.Marginal
-import WEdgeNS.Reduction.ResolventShift
-import WEdgeNS.Reduction.Cutoff
-import WEdgeNS.Comparison.OffDiagSmallQ
+module
+
+public import WEdgeNS.Reduction.TruncClass
+public import WEdgeNS.Reduction.Marginal
+public import WEdgeNS.Reduction.ResolventShift
+public import WEdgeNS.Reduction.Cutoff
+public import WEdgeNS.Comparison.OffDiagSmallQ
+
+@[expose] public section
 
 /-!
 # Off-diagonal resolvent entries at the selector positions

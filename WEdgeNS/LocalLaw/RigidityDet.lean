@@ -1,4 +1,8 @@
-import WEdgeNS.Semicircle.Rigidity
+module
+
+public import WEdgeNS.Semicircle.Rigidity
+
+@[expose] public section
 
 /-!
 # Rigidity with the `q`-terms from the counting bound

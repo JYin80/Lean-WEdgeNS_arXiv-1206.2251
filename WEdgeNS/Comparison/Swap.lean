@@ -1,4 +1,8 @@
-import WEdgeNS.Comparison.Expansion
+module
+
+public import WEdgeNS.Comparison.Expansion
+
+@[expose] public section
 
 /-!
 # One swap of the comparison

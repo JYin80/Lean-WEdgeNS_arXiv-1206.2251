@@ -1,4 +1,8 @@
-import WEdgeNS.EdgeUniv.Smoothing
+module
+
+public import WEdgeNS.EdgeUniv.Smoothing
+
+@[expose] public section
 
 /-!
 # Taylor expansions of test functions with polynomially bounded derivatives

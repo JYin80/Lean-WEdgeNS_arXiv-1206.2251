@@ -1,6 +1,10 @@
-import WEdgeNS.LocalLaw.CountingQ
-import WEdgeNS.LocalLaw.RigidityDet
-import WEdgeNS.LocalLaw.Norm
+module
+
+public import WEdgeNS.LocalLaw.CountingQ
+public import WEdgeNS.LocalLaw.RigidityDet
+public import WEdgeNS.LocalLaw.Norm
+
+@[expose] public section
 
 /-!
 # Rigidity of eigenvalues (Lemma 3.1 (4))

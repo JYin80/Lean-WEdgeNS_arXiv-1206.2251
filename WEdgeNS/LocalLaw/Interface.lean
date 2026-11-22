@@ -1,5 +1,9 @@
-import WEdgeNS.LocalLaw.Strong
-import WEdgeNS.LocalLaw.Truncation
+module
+
+public import WEdgeNS.LocalLaw.Strong
+public import WEdgeNS.LocalLaw.Truncation
+
+@[expose] public section
 
 /-!
 # The local semicircle law (Lemma 3.1 (1))

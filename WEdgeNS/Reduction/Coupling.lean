@@ -1,6 +1,10 @@
-import WEdgeNS.Reduction.Tail
-import WEdgeNS.Model.Ensembles
-import WEdgeNS.Probability.ProductSpace
+module
+
+public import WEdgeNS.Reduction.Tail
+public import WEdgeNS.Model.Ensembles
+public import WEdgeNS.Probability.ProductSpace
+
+@[expose] public section
 
 /-!
 # The coupling of the entries on an auxiliary product space

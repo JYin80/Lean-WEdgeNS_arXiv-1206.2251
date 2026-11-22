@@ -1,5 +1,9 @@
-import WEdgeNS.LocalLaw.Strong
-import WEdgeNS.Resolvent.Spectral
+module
+
+public import WEdgeNS.LocalLaw.Strong
+public import WEdgeNS.Resolvent.Spectral
+
+@[expose] public section
 
 /-!
 # Estimates outside the spectrum for almost surely bounded entries

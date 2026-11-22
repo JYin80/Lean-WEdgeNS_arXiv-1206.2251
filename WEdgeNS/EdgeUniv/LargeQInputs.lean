@@ -1,8 +1,12 @@
-import WEdgeNS.EdgeUniv.LargeQClass
-import WEdgeNS.EdgeUniv.EdgeSandwich
-import WEdgeNS.LocalLaw.Interface
-import WEdgeNS.LocalLaw.Norm
-import WEdgeNS.LocalLaw.Rigidity
+module
+
+public import WEdgeNS.EdgeUniv.LargeQClass
+public import WEdgeNS.EdgeUniv.EdgeSandwich
+public import WEdgeNS.LocalLaw.Interface
+public import WEdgeNS.LocalLaw.Norm
+public import WEdgeNS.LocalLaw.Rigidity
+
+@[expose] public section
 
 /-!
 # The edge event for the class of Lemma 3.5 and for the GOE

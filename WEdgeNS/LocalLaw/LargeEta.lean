@@ -1,4 +1,8 @@
-import WEdgeNS.LocalLaw.Control
+module
+
+public import WEdgeNS.LocalLaw.Control
+
+@[expose] public section
 
 /-!
 # The local law at large `η`

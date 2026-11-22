@@ -1,6 +1,10 @@
-import WEdgeNS.EdgeUniv.Lemma35
-import WEdgeNS.EdgeUniv.SmallQBridge
-import WEdgeNS.Comparison.GreenCompare
+module
+
+public import WEdgeNS.EdgeUniv.Lemma35
+public import WEdgeNS.EdgeUniv.SmallQBridge
+public import WEdgeNS.Comparison.GreenCompare
+
+@[expose] public section
 
 /-!
 # Edge universality for small support (Theorem 3.7)

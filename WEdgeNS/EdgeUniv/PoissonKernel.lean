@@ -1,4 +1,8 @@
-import WEdgeNS.EdgeUniv.Smoothing
+module
+
+public import WEdgeNS.EdgeUniv.Smoothing
+
+@[expose] public section
 
 /-!
 # The Poisson kernel `θ_η` and the counting bounds of Lemma 6.1 of [26]

@@ -1,4 +1,8 @@
-import WEdgeNS.LocalLaw.Norm
+module
+
+public import WEdgeNS.LocalLaw.Norm
+
+@[expose] public section
 
 /-!
 # Delocalization of eigenvectors (Lemma 3.1 (3))

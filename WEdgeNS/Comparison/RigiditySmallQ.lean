@@ -1,7 +1,11 @@
-import WEdgeNS.Comparison.NormSmallQ
-import WEdgeNS.Comparison.LocalSmallQ
-import WEdgeNS.Semicircle.Rigidity
-import WEdgeNS.Semicircle.Counting
+module
+
+public import WEdgeNS.Comparison.NormSmallQ
+public import WEdgeNS.Comparison.LocalSmallQ
+public import WEdgeNS.Semicircle.Rigidity
+public import WEdgeNS.Semicircle.Counting
+
+@[expose] public section
 
 /-!
 # Rigidity and the edge inputs for small support (Theorem 3.6)

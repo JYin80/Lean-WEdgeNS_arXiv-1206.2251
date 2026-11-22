@@ -1,5 +1,9 @@
-import WEdgeNS.Semicircle.Density
-import WEdgeNS.Resolvent.Basic
+module
+
+public import WEdgeNS.Semicircle.Density
+public import WEdgeNS.Resolvent.Basic
+
+@[expose] public section
 
 /-!
 # Rigidity from the counting bound ([26] (5.12)–(5.15))

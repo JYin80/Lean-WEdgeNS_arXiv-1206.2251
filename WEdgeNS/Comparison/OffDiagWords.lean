@@ -1,4 +1,8 @@
-import WEdgeNS.Comparison.Iterate
+module
+
+public import WEdgeNS.Comparison.Iterate
+
+@[expose] public section
 
 /-!
 # Words of the iterates of an off-diagonal pair

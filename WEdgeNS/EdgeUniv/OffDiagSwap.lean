@@ -1,6 +1,10 @@
-import WEdgeNS.EdgeUniv.DiagSwap
-import WEdgeNS.EdgeUniv.OffDiagPartial
-import WEdgeNS.EdgeUniv.ExpectationGain
+module
+
+public import WEdgeNS.EdgeUniv.DiagSwap
+public import WEdgeNS.EdgeUniv.OffDiagPartial
+public import WEdgeNS.EdgeUniv.ExpectationGain
+
+@[expose] public section
 
 /-!
 # One replacement in the Claim
