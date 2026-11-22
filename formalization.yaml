@@ -40,7 +40,7 @@ sources:
       with the changes needed to match the Lean proof; its Appendix A lists every change. Jun Yin
       is an author of the paper and of the formalization.
     license: "unknown"
-    author_endorsement: "TEMPLATE: participated, endorsed, no-response, not-contacted, declined, n/a, or other (state whether Ji Oon Lee was contacted)"
+    author_endorsement: "endorsed"
 
 related_formalizations: []
 
@@ -59,16 +59,16 @@ status:
 automation:
   methods:
     - method: "agent"
-      models: ["claude-opus-5-5", "claude-sonnet-5-5", "claude-fable-5-2"]
+      models: ["claude-opus-5-5", "claude-sonnet-5-5", "claude-fable-5-1", "claude-fable-5-2"]
       framework: "Claude Code"
       tool_setup: >-
         AI-assisted: a team of Claude Code agents (a dispatcher, workers on ticket worktrees and
-        reviewing agents, on claude-opus-5-5 and claude-sonnet-5-5) wrote the Lean code and the
+        reviewing agents) wrote the Lean code and the
         revised paper from the paper's source, under the direction of Jun Yin, who fixed the
         endpoint statements. The port to the Lean module system and the Challenge/Solution files
         for Palomar were written with claude-fable-5-2.
       cost:
-        wall_time: "TEMPLATE: approximate active effort (the work repository has 148 commits, 2026-10-19 to 2026-10-22, in 36 distinct clock hours)"
+        wall_time: "about 36 hours of active work between 2026-10-19 and 2026-10-22 (148 commits in the work repository; the run was paused for long stretches in between)"
         spend_usd: "not tracked"
         hardware: "local machine"
       prompting_notes: "n/a"
@@ -91,9 +91,13 @@ fidelity:
     Theorem 1.2. Details: README.md and Appendix A of paper-revised/main.pdf.
 
 review:
-  status: "TEMPLATE: honest review status, for example agent-reviewed"
+  status: "agent-reviewed"
   reviewers: []
-  notes: "TEMPLATE: describe the statement audit and review performed (for LHYUpper: tickets audited by a separate auditing agent; main statements checked by Jun Yin against the paper)"
+  notes: >-
+    The Lean proof of each ticket was audited by a separate auditing agent, and a supervising
+    agent checked the final statements. Jun Yin checked the statements of the main theorems and
+    of the definitions they use against the paper. Each endpoint file contains a compiled example
+    at which all hypotheses hold. No independent human review has been performed.
 
 alignment:
   namespace: "WEdgeNS"
