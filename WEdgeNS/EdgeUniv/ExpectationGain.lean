@@ -1214,6 +1214,7 @@ private lemma eg_big {a t n η w Δ : ℝ} (ha : 1 ≤ a) (ht : 1 ≤ t) (hta : 
 
 /-! ### [16] Lemma 6.8 at `f = 0` -/
 
+set_option maxHeartbeats 1000000 in -- needed since the port to the module system
 /-- [16] Lemma 6.8, (6.87) at `f = 0`: for the off-diagonal entry `e = (b, d)` (either order) and
 `i, j, b, d` distinct, `|E F′(x_R) R_ib R_dj conj(R_ij)(y + iη)| ≤ N^{-4/3+Cε}` (`= N^{Cε} p^{-4}`,
 `p⁻¹ = N^{-1/3+3ε}`), uniformly in `y ∈ I_ε`, for every `H_γ` and both functionals `x_R`; `C`

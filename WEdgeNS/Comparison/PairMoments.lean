@@ -1301,6 +1301,7 @@ private lemma pm_final {X0 P u B Z n L L' G V L₂ L₃ M : ℝ} (hu : 0 ≤ u) 
     mul_le_mul_of_nonneg_right hM (by linarith)
   linarith
 
+set_option maxHeartbeats 1000000 in -- needed since the port to the module system
 /-- (6.89): for `k ∈ ℕ²`, `1 ≤ |k| ≤ ⌈3/φs⌉`, and even `p`,
 `E |Σ_{ij} P_{γ,k}(R_ij conj R_ij)|^p ≤ (N^{1+Cε})^p` at `z = E + iN^{-2/3-ε}`, `E ∈ I_ε`. -/
 theorem moment_opP_pair_le {C1 φs : ℝ} (hφs : 0 < φs) :

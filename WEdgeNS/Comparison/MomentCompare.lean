@@ -732,6 +732,7 @@ private lemma mc_const_le (h : ℕ) (hh : 1 ≤ h) :
 
 /-! ### Lemma 5.4 -/
 
+set_option maxHeartbeats 1000000 in -- needed since the port to the module system
 /-- Lemma 5.4 (5.11), for matched pairs: if (5.10) holds for `H̃` at `z` with
 3-high probability (constants `c', C'`), then for even `p ≤ φ`,
 `E|m - m_sc|^p ≤ E|m̃ - m_sc|^p + (Cp)^{Cp} (X² + Y + φ N⁻¹)^p`. -/
