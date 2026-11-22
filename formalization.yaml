@@ -40,7 +40,7 @@ sources:
       with the changes needed to match the Lean proof; its Appendix A lists every change. Jun Yin
       is an author of the paper and of the formalization.
     license: "unknown"
-    author_endorsement: "endorsed"
+    author_endorsement: "not-contacted"
 
 related_formalizations: []
 
