@@ -3,6 +3,9 @@ module
 public import WEdgeNS.Comparison.MomentCompare
 public import WEdgeNS.LocalLaw.Norm
 public import WEdgeNS.LocalLaw.OutOfSpectrum
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Expansion
+import all WEdgeNS.LocalLaw.OutOfSpectrum
 
 @[expose] public section
 

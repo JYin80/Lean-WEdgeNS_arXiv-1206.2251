@@ -4,6 +4,7 @@ public import WEdgeNS.Comparison.Classes
 public import WEdgeNS.Comparison.Monomial
 public import WEdgeNS.LocalLaw.Interface
 public import WEdgeNS.Resolvent.Expansion
+import all WEdgeNS.LocalLaw.SelfConsistent
 
 @[expose] public section
 

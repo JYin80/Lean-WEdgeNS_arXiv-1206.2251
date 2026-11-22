@@ -3,6 +3,11 @@ module
 public import WEdgeNS.EdgeUniv.RBound
 public import WEdgeNS.EdgeUniv.WardReduction
 public import WEdgeNS.Resolvent.Minors
+import all WEdgeNS.Comparison.Telescope
+import all WEdgeNS.EdgeUniv.LargeQClass
+import all WEdgeNS.EdgeUniv.WardReduction
+import all WEdgeNS.LocalLaw.FluctAvg
+import all WEdgeNS.Resolvent.Minors
 
 @[expose] public section
 

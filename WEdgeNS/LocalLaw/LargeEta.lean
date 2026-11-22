@@ -1,6 +1,7 @@
 module
 
 public import WEdgeNS.LocalLaw.Control
+import all WEdgeNS.LocalLaw.Control
 
 @[expose] public section
 

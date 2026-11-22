@@ -2,6 +2,9 @@ module
 
 public import WEdgeNS.Comparison.ExpansionInv
 public import WEdgeNS.Comparison.Iterate
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Expansion
+import all WEdgeNS.Comparison.Iterate
 
 @[expose] public section
 

@@ -1,6 +1,7 @@
 module
 
 public import WEdgeNS.Semicircle.Rigidity
+import all WEdgeNS.Semicircle.Rigidity
 
 @[expose] public section
 

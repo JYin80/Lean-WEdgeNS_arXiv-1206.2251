@@ -1,6 +1,8 @@
 module
 
 public import WEdgeNS.LocalLaw.Norm
+import all WEdgeNS.LocalLaw.Norm
+import all WEdgeNS.Resolvent.Basic
 
 @[expose] public section
 

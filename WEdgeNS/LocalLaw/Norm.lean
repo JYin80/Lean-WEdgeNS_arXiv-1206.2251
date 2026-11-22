@@ -4,6 +4,10 @@ public import WEdgeNS.LocalLaw.Outside
 public import WEdgeNS.LocalLaw.NormApriori
 public import WEdgeNS.LocalLaw.Interface
 public import WEdgeNS.Semicircle.Rigidity
+import all WEdgeNS.LocalLaw.Interface
+import all WEdgeNS.LocalLaw.Outside
+import all WEdgeNS.LocalLaw.SelfConsistent
+import all WEdgeNS.Model.LambdaMax
 
 @[expose] public section
 

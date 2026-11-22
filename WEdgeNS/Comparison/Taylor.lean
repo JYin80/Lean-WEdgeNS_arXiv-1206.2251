@@ -2,6 +2,10 @@ module
 
 public import WEdgeNS.Comparison.PairMoments
 public import WEdgeNS.Comparison.LocalSmallQ
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Expansion
+import all WEdgeNS.Comparison.StarExpansion
+import all WEdgeNS.Comparison.Telescope
 
 @[expose] public section
 

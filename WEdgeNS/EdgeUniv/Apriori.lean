@@ -4,6 +4,7 @@ public import WEdgeNS.EdgeUniv.LargeQClass
 public import WEdgeNS.LocalLaw.Interface
 public import WEdgeNS.Comparison.Telescope
 public import WEdgeNS.Model.HighProbCalc
+import all WEdgeNS.Model.Transfer
 
 @[expose] public section
 

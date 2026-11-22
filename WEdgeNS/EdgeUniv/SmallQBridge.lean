@@ -3,6 +3,7 @@ module
 public import WEdgeNS.Comparison.RigiditySmallQ
 public import WEdgeNS.EdgeUniv.LargeQInputs
 public import WEdgeNS.EdgeUniv.InputsComparison
+import all WEdgeNS.Comparison.Classes
 
 @[expose] public section
 

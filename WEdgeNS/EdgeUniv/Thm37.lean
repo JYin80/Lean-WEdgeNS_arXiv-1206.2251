@@ -3,6 +3,8 @@ module
 public import WEdgeNS.EdgeUniv.Lemma35
 public import WEdgeNS.EdgeUniv.SmallQBridge
 public import WEdgeNS.Comparison.GreenCompare
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.PairMoments
 
 @[expose] public section
 

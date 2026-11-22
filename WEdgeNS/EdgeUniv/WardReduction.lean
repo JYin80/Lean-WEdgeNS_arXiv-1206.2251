@@ -2,6 +2,7 @@ module
 
 public import WEdgeNS.EdgeUniv.Apriori
 public import WEdgeNS.EdgeUniv.TaylorF
+import all WEdgeNS.EdgeUniv.LargeQClass
 
 @[expose] public section
 

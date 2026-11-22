@@ -3,6 +3,7 @@ module
 public import WEdgeNS.EdgeUniv.ClaimLargeQ
 public import WEdgeNS.EdgeUniv.LargeQInputs
 public import WEdgeNS.EdgeUniv.InputsComparison
+import all WEdgeNS.EdgeUniv.LargeQClass
 
 @[expose] public section
 

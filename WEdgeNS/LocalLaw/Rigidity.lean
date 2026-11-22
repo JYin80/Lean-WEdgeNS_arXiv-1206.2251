@@ -3,6 +3,7 @@ module
 public import WEdgeNS.LocalLaw.CountingQ
 public import WEdgeNS.LocalLaw.RigidityDet
 public import WEdgeNS.LocalLaw.Norm
+import all WEdgeNS.LocalLaw.SelfConsistent
 
 @[expose] public section
 

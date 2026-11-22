@@ -5,6 +5,8 @@ public import WEdgeNS.EdgeUniv.EdgeSandwich
 public import WEdgeNS.LocalLaw.Interface
 public import WEdgeNS.LocalLaw.Norm
 public import WEdgeNS.LocalLaw.Rigidity
+import all WEdgeNS.LocalLaw.SelfConsistent
+import all WEdgeNS.Model.Transfer
 
 @[expose] public section
 

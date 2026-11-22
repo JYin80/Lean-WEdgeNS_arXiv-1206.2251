@@ -2,6 +2,7 @@ module
 
 public import WEdgeNS.EdgeUniv.RBound
 public import WEdgeNS.EdgeUniv.WardReduction
+import all WEdgeNS.EdgeUniv.RBound
 
 @[expose] public section
 

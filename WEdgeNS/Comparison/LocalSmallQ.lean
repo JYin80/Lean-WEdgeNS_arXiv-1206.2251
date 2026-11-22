@@ -2,6 +2,11 @@ module
 
 public import WEdgeNS.Comparison.MomentCompare
 public import WEdgeNS.Model.HighProbCalc
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Expansion
+import all WEdgeNS.Comparison.Swap
+import all WEdgeNS.LocalLaw.SelfConsistent
+import all WEdgeNS.LocalLaw.Weak
 
 @[expose] public section
 

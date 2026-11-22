@@ -1,6 +1,8 @@
 module
 
 public import WEdgeNS.Comparison.Taylor
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.PairMoments
 
 @[expose] public section
 

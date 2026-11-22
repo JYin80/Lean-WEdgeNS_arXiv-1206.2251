@@ -4,6 +4,9 @@ public import WEdgeNS.Comparison.NormSmallQ
 public import WEdgeNS.Comparison.LocalSmallQ
 public import WEdgeNS.Semicircle.Rigidity
 public import WEdgeNS.Semicircle.Counting
+import all WEdgeNS.Comparison.NormSmallQ
+import all WEdgeNS.LocalLaw.OutOfSpectrum
+import all WEdgeNS.Model.HighProb
 
 @[expose] public section
 

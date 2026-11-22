@@ -3,6 +3,8 @@ module
 public import WEdgeNS.LocalLaw.Weak
 public import WEdgeNS.LocalLaw.Decoupling
 public import WEdgeNS.LocalLaw.Graded
+import all WEdgeNS.LocalLaw.Control
+import all WEdgeNS.LocalLaw.SelfConsistent
 
 @[expose] public section
 

@@ -1,6 +1,7 @@
 module
 
 public import WEdgeNS.Comparison.Expansion
+import all WEdgeNS.Comparison.Expansion
 
 @[expose] public section
 

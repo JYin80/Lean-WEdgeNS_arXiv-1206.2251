@@ -1,6 +1,11 @@
 module
 
 public import WEdgeNS.Comparison.Iterate
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Expansion
+import all WEdgeNS.Comparison.GoodEvent
+import all WEdgeNS.Comparison.Iterate
+import all WEdgeNS.Comparison.Monomial
 
 @[expose] public section
 

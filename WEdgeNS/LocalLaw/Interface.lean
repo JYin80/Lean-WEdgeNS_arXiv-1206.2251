@@ -2,6 +2,8 @@ module
 
 public import WEdgeNS.LocalLaw.Strong
 public import WEdgeNS.LocalLaw.Truncation
+import all WEdgeNS.LocalLaw.SelfConsistent
+import all WEdgeNS.LocalLaw.Strong
 
 @[expose] public section
 

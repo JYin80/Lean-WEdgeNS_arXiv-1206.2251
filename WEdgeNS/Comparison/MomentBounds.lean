@@ -2,6 +2,7 @@ module
 
 public import WEdgeNS.Comparison.Classes
 public import WEdgeNS.Comparison.Monomial
+import all WEdgeNS.Comparison.Classes
 
 @[expose] public section
 

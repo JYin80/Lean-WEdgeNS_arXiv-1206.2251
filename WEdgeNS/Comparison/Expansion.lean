@@ -3,6 +3,8 @@ module
 public import WEdgeNS.Comparison.StarExpansion
 public import WEdgeNS.Comparison.GoodEvent
 public import WEdgeNS.Comparison.MomentBounds
+import all WEdgeNS.Comparison.GoodEvent
+import all WEdgeNS.LocalLaw.SelfConsistent
 
 @[expose] public section
 

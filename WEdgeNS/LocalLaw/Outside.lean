@@ -2,6 +2,8 @@ module
 
 public import WEdgeNS.LocalLaw.Strong
 public import WEdgeNS.Resolvent.Spectral
+import all WEdgeNS.LocalLaw.SelfConsistent
+import all WEdgeNS.LocalLaw.Weak
 
 @[expose] public section
 

@@ -3,6 +3,11 @@ module
 public import WEdgeNS.EdgeUniv.DiagSwap
 public import WEdgeNS.EdgeUniv.OffDiagPartial
 public import WEdgeNS.EdgeUniv.ExpectationGain
+import all WEdgeNS.EdgeUniv.ExpectationGain
+import all WEdgeNS.EdgeUniv.LargeQClass
+import all WEdgeNS.EdgeUniv.OffDiagExpansion
+import all WEdgeNS.EdgeUniv.OffDiagPartial
+import all WEdgeNS.EdgeUniv.WardReduction
 
 @[expose] public section
 

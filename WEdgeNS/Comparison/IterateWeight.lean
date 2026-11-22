@@ -2,6 +2,9 @@ module
 
 public import WEdgeNS.Comparison.IterateSum
 public import WEdgeNS.Comparison.OffDiagWords
+import all WEdgeNS.Comparison.Expansion
+import all WEdgeNS.Comparison.Iterate
+import all WEdgeNS.Comparison.IterateSum
 
 @[expose] public section
 

@@ -2,6 +2,8 @@ module
 
 public import WEdgeNS.Comparison.IterateWeight
 public import WEdgeNS.Semicircle.Stieltjes
+import all WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Expansion
 
 @[expose] public section
 

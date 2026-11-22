@@ -1,6 +1,7 @@
 module
 
 public import WEdgeNS.EdgeUniv.OffDiagSwap
+import all WEdgeNS.EdgeUniv.LargeQClass
 
 @[expose] public section
 

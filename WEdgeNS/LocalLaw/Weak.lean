@@ -4,6 +4,7 @@ public import WEdgeNS.LocalLaw.SelfConsistent
 public import WEdgeNS.LocalLaw.LargeEta
 public import WEdgeNS.LocalLaw.Dichotomy
 public import WEdgeNS.LocalLaw.Lattice
+import all WEdgeNS.LocalLaw.SelfConsistent
 
 @[expose] public section
 

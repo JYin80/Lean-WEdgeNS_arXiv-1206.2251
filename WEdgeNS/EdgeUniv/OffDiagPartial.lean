@@ -2,6 +2,10 @@ module
 
 public import WEdgeNS.EdgeUniv.OffDiagExpansion
 public import WEdgeNS.Comparison.Classes
+import all WEdgeNS.Comparison.Telescope
+import all WEdgeNS.EdgeUniv.LargeQClass
+import all WEdgeNS.EdgeUniv.OffDiagExpansion
+import all WEdgeNS.EdgeUniv.WardReduction
 
 @[expose] public section
 
